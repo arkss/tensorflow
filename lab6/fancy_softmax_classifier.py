@@ -70,7 +70,7 @@ with tf.Session() as sess:
         sess.run(Optimizer, feed_dict={X:x_data, Y:y_data})
         if step % 100 == 0:
             loss , acc = sess.run([cost,accuracy], feed_dict={
-                X: x_data, Y: y_data})
+                X: x_data, Y: y_data})ㅅ
             print("step:{:5}\tLoss:{:3f}\tAcc:{:.2%}".format(
                 step, loss, acc))
 
