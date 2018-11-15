@@ -1,8 +1,7 @@
 import tensorflow as tf
 import numpy as np
 
-x_data = np.array([[0,0],[0,1],[1,0],[1,1]], dtype= np.float32)
-# [[0,0],[1,0],[0,1],[1,1]] 데이터를 다음과 같이 바꾸기만 해도 결과가 많이 다르다.
+x_data = np.array([[0,0],[1,0],[0,1],[1,1]], dtype= np.float32)
 y_data = np.array([[0],[1],[1],[0]], dtype = np.float32)
 
 X = tf.placeholder(tf.float32)

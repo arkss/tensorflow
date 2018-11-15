@@ -66,10 +66,23 @@ with tf.Session() as sess:
     # 그 전 training과 관련없는 test 데이터를 가져온다.
 
     r = random.randint(0, mnist.test.num_examples - 1)
-    print(mnist.test.num_examples)
     # random 을 import 한 후 사용가능하고 두 개의 매개변수를 받아 
     # 두 수를 포함한 사이의 수 중 random하게 수를 return 한다.
-    print("Labels:", sess.run(tf.argmax(mnist.test.labels[r,r+1],1)))
+    
+    print("mnist.test.num_examples:"mnist.test.num_examples) # 10000
+    print("mnist.train.num_examples:"mnist.train.num_examples) # 55000
+    print("mnist.validation.num_examples:"mnist.validation.num_examples) # 5000
+    # validation 은 training data 중에서 
+    # learning rate 나 regularization strength을 잘 찾기 위한 데이터
+
+    print("r:",r)
+
+    print ("np.shape(mnist.train.images):" np.shape(mnist.train.images))  # (55000, 784)
+    print ("np.shape(mnist.train.labels):"np.shape(mnist.train.labels))  # (55000, 10)
+    # 데이터는 784(28x28)개의 픽셀을 가지는 이미지와
+    # 10(0~9)개 클래스를 가지는 one hot 인코드된 레이블을 가지고 있음
+
+    print("Labels:", sess.run(tf.argmax(mnist.test.labels[r:r+1],1)))
     print("Prediction:", sess.run(tf.argmax(hypothesis,1),
             feed_dict = {X:mnist.test.images[r:r+1]}))
 
