@@ -42,6 +42,8 @@ accuracy_summ = tf.summary.scalar("accuracy", accuracy)
 with tf.Session() as sess:
 
     merged_summary = tf.summary.merge_all()
+    # merge 작업은 Session을 열고 하던 그 전에 하던 큰 상관없다.
+
     #writer = tf.summary.FileWriter("./logs/xor_logs_r0_01")
     writer = tf.summary.FileWriter("./logs/xor_logs_r0_1")
     writer.add_graph(sess.graph)
@@ -61,7 +63,7 @@ with tf.Session() as sess:
 
 
 # tensorboard 실행시키는 방법
-# python3 -m tensorflow.tensorboard --logdir=./logs/xor_logs
+#python3 -m tensorflow.tensorboard --logdir=./logs/xor_logs
 # = 뒤로는 현재 terminal 에서 있는 곳으로 부터 데이터가 있는 곳으로의 경로
 # 데이터는 다음 py 파일이 있는 곳과 같은 디렉토리에 생성 된다. 
 # 접속하는 방법은 localhost:6006
