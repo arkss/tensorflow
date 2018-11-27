@@ -11,7 +11,7 @@ X = tf.placeholder(tf.float32, [None,784])
 Y = tf.placeholder(tf.float32, [None,nb_classes])
 
 keep_prob = tf.placeholder(tf.float32)
-# keep_prob 을 다음과 같이 변수로 설정한 이유는 train 할 때와 test 할 때의 값이 달라야 하기 때문이다.
+# keep_prob 을 다음과 같이 변수로 설정한 이유는 dropout ! train 할 때와 test 할 때의 값이 달라야 하기 때문이다.
 # 대체적으로 train은 0.5~0.7 로 하고 test 할 때는 무조건 1로 해야한다.
 
 #W1 = tf.Variable(tf.random_normal([784,256]))
@@ -39,7 +39,7 @@ W4 = tf.get_variable("W4", shape = [512,512], initializer = tf.contrib.layers.xa
 b4 = tf.Variable(tf.random_normal([512]))
 L4 = tf.nn.relu(tf.matmul(L3,W4)+b4)
 
-#W3 = tf.Variable(tf.random_normal([256,nb_classes]))
+
 W5 = tf.get_variable("W5", shape =[512,nb_classes], initializer = tf.contrib.layers.xavier_initializer())
 b5 = tf.Variable(tf.random_normal([nb_classes]))
 hypothesis = tf.matmul(L4,W5)+b5

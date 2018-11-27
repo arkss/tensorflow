@@ -23,7 +23,7 @@ L1 = tf.nn.relu(L1)
 # shape = (?,28,28,32)
 L1 = tf.nn.max_pool(L1, ksize=[1,2,2,1], strides = [1,2,2,1], padding = 'SAME')
 # ksize는 커널의 사이즈
-# shape = (?,14,14,32)
+
 
 
 # conv layer2

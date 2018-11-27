@@ -81,8 +81,7 @@ b5 = tf.Variable(tf.random_normal([10]))
 hypothesis = tf.matmul(L4,W5)+b5
 # shape = (?, 10)
 
-#cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits = logits , labels =Y))
-#optimizer = tf.train.AdamOptimizer(learning_rate = 0.001).minimize(cost)
+
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(
     logits=hypothesis, labels=Y))
 
