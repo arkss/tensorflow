@@ -103,7 +103,7 @@ for epoch in range(training_epochs):
     avg_cost_list = np.zeros(len(models))
     # 각 모델의 cost를 저장할 리스트
     # 0을 원소로 하고 개수가 models의 개수와 동일한 리스트
-    total_batch = int(mnist.train.num_examples / batch_size)
+    total_batch = int(mnist.train.num_examples / batch_size) # 55000 / 100 = 550
     for i in range(total_batch):
         batch_xs , batch_ys = mnist.train.next_batch(batch_size)
 
@@ -111,6 +111,8 @@ for epoch in range(training_epochs):
         # model이 여러 개 이기 때문에 반복문으로 각각 학습시킨다.
             c, _ = m.train(batch_xs, batch_ys)
             avg_cost_list[m_idx] += c / total_batch
+            # total batch(550) 만큼 반복을 하게 되는데 각각의 batch_xs와 ys의 해당하는 
+            # cost를 550으로 나누고 더해주는 과정을 550번 걸쳐 평균을 구하게 된다.
 
     print('Epoch:', '%04d' % (epoch + 1), 'cost =', avg_cost_list)
 
@@ -121,8 +123,10 @@ predictions = np.zeros([test_size , 10]) #  (10000,10) 크기의 원소가 0인 
 for m_idx, m in enumerate(models): # m_idx는 0부터 순차적으로, m은 models 안에 있는 원소를 순회
     print(m_idx, 'Accuracy:', m.get_accuracy(
         mnist.test.images, mnist.test.labels))
-    p = m.predict(mnist.test.images) 
+    p = m.predict(mnist.test.images)
+    print(p)
     predictions += p # predictions에는 각 모델의 predict들이 반복적으로 더해진다.
+    print(predictions)
 
 ensemble_correct_prediction = tf.equal(
     tf.argmax(predictions, 1), tf.argmax(mnist.test.labels, 1))

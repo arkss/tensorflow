@@ -97,7 +97,6 @@ class Model:
 sess = tf.Session()
 m1 = Model(sess, "m1")
 
-#sess.run(tf.global_variables_intializer())
 sess.run(tf.global_variables_initializer())
 
 print("learning started!")
