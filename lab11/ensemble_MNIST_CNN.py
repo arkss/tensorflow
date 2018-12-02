@@ -123,10 +123,24 @@ predictions = np.zeros([test_size , 10]) #  (10000,10) 크기의 원소가 0인 
 for m_idx, m in enumerate(models): # m_idx는 0부터 순차적으로, m은 models 안에 있는 원소를 순회
     print(m_idx, 'Accuracy:', m.get_accuracy(
         mnist.test.images, mnist.test.labels))
-    p = m.predict(mnist.test.images)
+    p = m.predict(mnist.test.images) # mnist.test.images = 10000
     print(p)
     predictions += p # predictions에는 각 모델의 predict들이 반복적으로 더해진다.
-    print(predictions)
+"""
+predictions의 모습
+      0 1 2 3 4 5 6 7 8 9
+1
+2
+3
+.
+.
+.  
+10000
+
+여기에 p를    
+
+여기부분 잘모르겟다아아아
+"""    
 
 ensemble_correct_prediction = tf.equal(
     tf.argmax(predictions, 1), tf.argmax(mnist.test.labels, 1))
