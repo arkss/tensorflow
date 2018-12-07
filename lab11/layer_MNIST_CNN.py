@@ -37,7 +37,7 @@ class Model:
             # 매개변수 : inputs 데이터 / pooling의 사이즈 / padding / strides 크기
             dropout1 = tf.layers.dropout(inputs=pool1, rate = 0.3, training=self.training)   
 
-            # 매개변수 : inputs 데이터 / 드랍아웃할 비율 /  ?
+            # 매개변수 : inputs 데이터 / 드랍아웃할 비율 / 할지말지에 대한 boolean 값
             conv2 = tf.layers.conv2d(inputs = dropout1, filters = 64, kernel_size = [3,3],
                                             padding = 'SAME', activation = tf.nn.relu)
 
