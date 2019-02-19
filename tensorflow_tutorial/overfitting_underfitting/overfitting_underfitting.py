@@ -99,7 +99,8 @@ bigger_model.compile(optimizer='adam',
                      metrics=['accuracy','binary_crossentropy'])
 
 # bigger_model.summary()
-bigger_history = bigger_model.fit(train_data,                                            train_labels,
+bigger_history = bigger_model.fit(train_data,                                            
+                                  train_labels,
                                   epochs=20,
                                   batch_size=512,
                                   validation_data=(test_data, test_labels),
@@ -153,7 +154,8 @@ l2_model.compile(optimizer='adam',
                  loss='binary_crossentropy',
                  metrics=['accuracy', 'binary_crossentropy'])
 
-l2_model_history = l2_model.fit(train_data,                                            train_labels,
+l2_model_history = l2_model.fit(train_data,
+                                train_labels,
                                 epochs=20,
                                 batch_size=512,
                                 validation_data=(test_data, test_labels),
@@ -181,7 +183,8 @@ dpt_model.compile(optimizer='adam',
                   loss='binary_crossentropy',
                   metrics=['accuracy','binary_crossentropy'])
 
-dpt_model_history = dpt_model.fit(train_data,                                            train_labels,
+dpt_model_history = dpt_model.fit(train_data,                                            
+                                  train_labels,
                                   epochs=20,
                                   batch_size=512,
                                   validation_data=(test_data, test_labels),
