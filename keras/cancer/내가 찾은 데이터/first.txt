@@ -1,0 +1,572 @@
+!Sample_characteristics_ch1			
+disease state: pancreatic cancer		pancreatic cancer 	100
+disease state: pancreatic cancer		healthy control	150
+disease state: pancreatic cancer		colon cancer	50
+disease state: pancreatic cancer		stomach cancer	50
+disease state: pancreatic cancer		esophagus cancer	50
+disease state: pancreatic cancer		liver cancer	52
+disease state: pancreatic cancer		benign pancreatic or biliary tract diseases	21
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: pancreatic cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: biliary tract cancer			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: healthy control			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: colon cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: stomach cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: esophagus cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: liver cancer			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
+disease state: benign pancreatic or biliary tract diseases			
