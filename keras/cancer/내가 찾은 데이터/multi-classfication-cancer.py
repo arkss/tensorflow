@@ -3,22 +3,32 @@ import numpy as np
 import pandas as pd 
 
 """ 데이터 불러오기 """
-all_data = pd.read_csv("./total_data.csv" )
+all_data = pd.read_csv("./total_data_19.csv" )
 
 
 # label 만 제거만 데이터
 data = all_data.drop(columns = ['label'])
 # label 만 남은 데이터
 label_data = all_data[['label']]
+label_data_list = label_data.values.tolist()
+
 
 # print(all_data)
 # [6237 rows x 2257 columns]
 
+
+
+
+from sklearn.utils import shuffle
+all_data = shuffle(all_data)
+
+
 """ train, test data 로 나누기 """
 all_data_list = all_data.values.tolist()
-data_list = data.values.tolist()
 
-count_list = [0 for i in range(1,24)]
+
+# count_list = [0 for i in range(1,24)]
+count_list = [0 for i in range(1,20)]
 
 
 for data_list in all_data_list:
@@ -33,8 +43,8 @@ test_index = 0
 
 for count in count_list:
     # 0.7 / 0.3 , training / test
-    train_index = int(count*0.7) + before_test_index
-    test_index = int(count*0.3) + train_index
+    train_index = int(count*0.8) + before_test_index
+    test_index = int(count*0.2) + train_index
 
     train_data += all_data_list[before_test_index:train_index]
     test_data += all_data_list[train_index:test_index]
@@ -61,12 +71,13 @@ from keras import models
 from keras import layers
 
 model = models.Sequential()
-model.add(layers.Dense(200, activation='relu'))
-model.add(layers.Dense(200, activation='relu'))
-model.add(layers.Dense(200, activation='relu'))
-model.add(layers.Dense(200, activation='relu'))
-model.add(layers.Dense(200, activation='relu'))
-model.add(layers.Dense(23, activation='softmax'))
+model.add(layers.Dense(512, activation='relu'))
+model.add(layers.Dense(256, activation='relu'))
+model.add(layers.Dropout(0.3))
+model.add(layers.Dense(128, activation='relu'))
+model.add(layers.Dense(128, activation='relu'))
+model.add(layers.Dropout(0.3))
+model.add(layers.Dense(19, activation='softmax'))
 
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc'])
 
@@ -75,11 +86,58 @@ train_data = np.array(train_data)
 test_data = np.array(test_data)
 
 
-history = model.fit(train_data, one_hot_train_labels, validation_split=0.1, epochs=500)
+history = model.fit(train_data, one_hot_train_labels, validation_split=0.2,shuffle=True, epochs=50)
+ 
 
 results = model.evaluate(test_data, one_hot_test_labels)
 
+predict_classes = model.predict_classes(train_data)
+
+
+print("#####################")
+print(len(predict_classes)) # 4358
+print(len(train_label))     # 4358
+
+# answer_matrix 는 행에는 정답이, 열에는 예측한 수가 위치한다. 즉 diagonal 한 원소에 값이 클수록 정확도가 높다고 예측할 수 있다. 
+answer_matrix = [[0]*19 for i in range(19)]
+for predict,label in zip(predict_classes, train_label):
+    answer_matrix[label][predict] += 1
+    
+print("@@@@@@@@@@@@@@@@@@@@@@")
+print(answer_matrix)
+
+# print("predict_classes=", model.predict_classes(train_data))
+# print("predict=", model.predict(train_data))
 print("result=",results)
 print("끝")
 
+
+import matplotlib
+matplotlib.use('agg')
+# RuntimeError: Invalid DISPLAY variable 오류를 제거하기 위한 코드
+import matplotlib.pyplot as plt
+
+
+acc = history.history['acc']
+val_acc = history.history['val_acc']
+loss = history.history['loss']
+val_loss = history.history['val_loss']
+
+epochs = range(1,len(acc)+1)
+
+plt.plot(epochs, acc, 'bo', label='Training acc')
+plt.plot(epochs, val_acc, 'b', label='Validation acc')
+plt.title('Training and validation accuracy')
+plt.legend()
+
+plt.savefig("./graph_images/acc/acc_200Dense_4_dropdout0.3_2_edit19.png")
+
+plt.figure()
+
+plt.plot(epochs, loss, 'bo', label='Training loss')
+plt.plot(epochs, val_loss, 'b', label='Validation loss')
+plt.title('Training and validation loss')
+plt.legend()
+
+plt.savefig("./graph_images/loss/loss_200Dense_4_dropdout0.3_2_2_edit19.png")
 
